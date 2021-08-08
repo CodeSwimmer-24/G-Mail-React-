@@ -1,0 +1,33 @@
+.sidebaroptions {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0px 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #818181;
+}
+.sidebaroptions:hover,
+.sidebaroptions:hover > p,
+.sidebaroptions:hover > h3,
+.sidebarOption-active,
+.sidebarOption-active > p,
+.sidebarOption-active > h3 {
+  background-color: #fcecec;
+  color: #c84b37;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+}
+.sidebaroptions > h3 {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.sidebaroptions > p {
+  display: none;
+  font-weight: 300;
+}
+.sidebaroptions:hover > p {
+  display: inline;
+}
